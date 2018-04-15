@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Timetable</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/indexStyle.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <style>
+        .col{
+            padding-left: .7%;
+            padding-right:.7%;
+
+        }
+        .btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle{
+            background-color:rgba(36,35,41,0.38);
+            border-color:  rgba(36,35,41,0.38);
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-light navbar-expand-md bg-transparent text-center">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler navbar- " type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ml-auto ">
+            <li class="nav-item mr-4">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mr-4">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item mr-4">
+                <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item mr-4">
+                <a class="nav-link" href="timetable.html">Book</a>
+            </li>
+        </ul>
+        <span class="ml-auto">77307593 <i class="ion-android-call ml-1"></i></span>
+    </div>
+</nav>
+
+<div class="container mt-5 p-3" style="border: 3px solid rgba(170,161,191,0.38);">
+    <h5 class="text-center">This Week Timetable</h5>
+    <div class="row mt-5">
+        <div class="col text-center" id="Mon">
+            <p style="font-size: 1em">MON</p>
+            <div class=" time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Mon_Time1">9</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Mon_Time2">10</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Mon_Time3">11</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Mon_Time4">12</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Mon_Time5">13</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Mon_Time6">14</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Mon_Time7">15</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Mon_Time8">16</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Mon_Time9">17</button>
+            </div>
+        </div>
+        <div class="col text-center" id="Tue">
+            <p style="font-size: 1em">TUE</p>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Tue_Time1">9</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Tue_Time2">10</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Tue_Time3">11</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Tue_Time4">12</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Tue_Time5">13</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Tue_Time6">14</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Tue_Time7">15</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Tue_Time8">16</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Tue_Time9">17</button>
+            </div>
+        </div>
+        <div class="col text-center" id="Wed">
+            <p style="font-size: 1em">WED</p>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Wed_Time1">9</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Wed_Time2">10</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Wed_Time3">11</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Wed_Time4">12</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Wed_Time5">13</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Wed_Time6">14</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Wed_Time7">15</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Wed_Time8">16</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Wed_Time9">17</button>
+            </div>
+        </div>
+        <div class="col text-center" id="Thu">
+            <p style="font-size: 1em">THU</p>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 w-100" id="Thu_Time1">9</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 w-100" id="Thu_Time2">10</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 w-100" id="Thu_Time3">11</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Thu_Time4">12</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Thu_Time5">13</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Thu_Time6">14</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Thu_Time7">15</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Thu_Time8">16</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Thu_Time9">17</button>
+            </div>
+        </div>
+        <div class="col text-center" id="Fri">
+            <p style="font-size: 1em">FRI</p>
+
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Fri_Time1">9</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Fri_Time2">10</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Fri_Time3">11</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Fri_Time4">12</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Fri_Time5">13</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Fri_Time6">14</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Fri_Time7">15</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Fri_Time8">16</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Fri_Time9">17</button>
+            </div>
+        </div>
+        <div class="col text-center" id="Sat">
+            <p style="font-size: 1em">SAT</p>
+
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Sat_Time1">9</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Sat_Time2">10</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Sat_Time3">11</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Sat_Time4">12</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100" id="Sat_Time5">13</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sat_Time6">14</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sat_Time7">15</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sat_Time8">16</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sat_Time9">17</button>
+            </div>
+        </div>
+        <div class="col text-center" id="Sun">
+            <p style="font-size: 1em">SUN</p>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sun_Time1">9</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sun_Time2">10</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sun_Time3">11</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sun_Time4">12</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sun_Time5">13</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sun_Time6">14</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sun_Time7">15</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sun_Time8">16</button>
+            </div>
+            <div class="time mt-md-3 mt-sm-2">
+                <button class="btn btn-outline-secondary  w-100 active" id="Sun_Time9">17</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
